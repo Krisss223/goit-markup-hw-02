@@ -1,14 +1,14 @@
 body {
-    font-family: Roboto sans-serif;
+    font-family: 'Roboto' sans-serif;
     color: #434455;
     background-color: var(--background-color);
     line-height: 60px;
     letter-spacing: 1.12px;
 }
 
-root {
+:root {
     --background-color: #FFFFFF;
-    --color: #2e2f42;
+    --colorNav: #2e2f42;
     --colorLink: #434455;
 }
 
@@ -18,6 +18,7 @@ root {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -39,7 +40,7 @@ root {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color)
+    color: var(--colorNav)
 }
 
 .link {
