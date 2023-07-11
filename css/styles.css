@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: var (--Background-color-page);
+    background-color: var(--Background-color-page);
 }
 
 :root {
@@ -17,6 +17,7 @@ body {
     --footer-pageBackgroundColor: #2e2f42;
     --text-footerColor: #F4F4FD;
     --portfolio-buttonColor: #4d5ae5;
+    --portfolio-buttonBackgroundColor: #F4F4FD;
     --title-second-portfolioColor: #2e2f42;
     --text-page-portfolioColor: #434455;
 
@@ -168,6 +169,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--portfolio-buttonColor);
     cursor: pointer;
+    background-color: var(--portfolio-buttonBackgroundColor);
 
 }
 
